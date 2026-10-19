@@ -1,0 +1,80 @@
+.banner{
+    display: flex;
+    background-color: black;
+}
+
+.banner-header{
+    background-color: black;
+    height:110px;
+    
+}
+
+.banner-header-pic{
+   margin-top: 60px;
+    width: 63%;
+    
+}
+
+.banner-pic{
+   width: 130%;
+   cursor: pointer;
+   
+}
+
+.banner-title{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.banner-name{
+    margin-top: 32px;
+    margin-left: 245px;
+    font-weight: Roboto, Arial;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+.banner-info{
+    font-family: Roboto, Arial;
+    font-size: 40px;
+    color: white;
+    margin-top: 1px;
+    margin-right: 70px;
+    margin-left: 245px;
+    margin-bottom: 30px;
+    display: bold;
+   
+}
+
+.watchnow-button{
+    
+    margin-left: 245px;
+    margin-right: 100px;
+    margin-top: 10px;
+    width: 270px;
+    height: 70px;
+    font-size: 22px;  
+    color: white; 
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    background-color: black;
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+   
+}
+
+.watchnow-button:hover{
+    background-color: #e59600;
+    color: black;
+    border: none;
+}
+

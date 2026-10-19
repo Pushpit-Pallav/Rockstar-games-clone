@@ -1,0 +1,57 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: black;
+    border-bottom-style: solid ;
+    border-bottom-color: rgb(77, 65, 65);
+    border-bottom-width: 2px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height: 30px;
+    margin-left: 80px;
+    margin-right: 25px;
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 50px;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.rockstar-logo{
+    height: 30px;
+    
+    margin-left: 55%;
+}
+
+.right-section{
+    width: 200px;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+
+.profile-logo{
+   height: 30px;
+   border-radius: 15px;
+   margin-left: 50%;
+}

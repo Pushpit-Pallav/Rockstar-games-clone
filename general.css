@@ -1,0 +1,232 @@
+body{
+    background-color: #0c0b0b;
+}
+
+h4{
+    font-family: Roboto, Arial;
+    color: white;
+    font-size: 28px;
+    margin-top: 8%;
+    margin-left: 80px;
+}
+
+.newswire-tiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.tile-1{
+    background-color: black;
+    margin-left: 80px;
+    border-style: solid;
+    border-color: rgb(61, 60, 60);
+    border-radius: 10px;
+    
+}
+
+.tile-2{
+    background-color: black;
+    margin-left: 40px;
+    margin-top:4px;
+    width: 350px;
+    height: 566px;
+    border-style: solid;
+    border-color: rgb(61, 60, 60);
+    border-radius: 10px;
+}
+
+.tile-3{
+    background-color: black;
+    margin-left: 30px;
+   margin-right: 0px;
+    width: 350px;
+    border-style: solid;
+    border-color: rgb(61, 60, 60);
+    border-radius: 10px;
+}
+
+.tile-4{
+    background-color: black;
+    margin-left: 80px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: rgb(61, 60, 60);
+    border-radius: 10px;
+    
+}
+
+.tile-5{
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 350px;
+    border-style: solid;
+    border-color: rgb(61, 60, 60);
+    border-radius: 10px;
+}
+
+.tile-6{
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 80px;
+    width: 350px;
+    border-style: solid;
+    border-color: rgb(61, 60, 60);
+    border-radius: 10px;
+}
+
+.tile-1 .tile-2 .tile-3 .tile-4 .tile-5 .tile-6:hover{
+    cursor: pointer;
+}
+
+.halo-horrors{
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.red-dead-halo{
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+
+.bpb{
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.auto-shop{
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.gta-plus{
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+
+.gta-five{
+    width: 350px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.tile-name{
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    color: white;
+    margin-top: 44px;
+    margin-left: 35px;
+    display: inline-block;
+}
+
+.tile-date{
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    color: grey;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.tile-info{
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    font-size: 23px;
+    color: white;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.view-more{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    color: white;
+    font-family: Roboto, Arial;
+    font-weight: 700;
+    font-size: 23px;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 0);
+    text-decoration-thickness: 5px;
+}
+
+.view-more:hover{
+    cursor: pointer;
+}
+
+.featured-games{
+    font-family: Roboto, Arial;
+    color: white;
+    font-size: 28px;
+    margin-top: 14%;
+    margin-left: 80px;
+}
+
+.featured-games-tiles{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.featured-1{
+    width: 250px;
+}
+
+.featured-2{
+    width: 250px;
+}
+
+.featured-3{
+    width: 250px;
+    
+}
+
+.featured-4{
+    width: 250px;
+}
+
+.GTAV-game{
+    width: 100%;
+    height: 349px;
+    margin-left: 70px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.GTA-online-game{
+    width: 100%;
+    height: 349px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.red-dead-game{
+    width: 100%;
+    height: 349px;
+    margin-left: 20px;
+    margin-right: -10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.red-dead-on{
+    width: 100%;
+    height: 349px;
+    margin-left: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
